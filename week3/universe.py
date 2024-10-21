@@ -28,4 +28,6 @@ from typing import List
 
 def generate(self, names:List[str]) -> None:
     pass
+    
+    Missing test files for clothing_size, clothing, planet, non_planet, and need to update human...
 ''' 

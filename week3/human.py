@@ -1,3 +1,5 @@
+from clothing import Clothing
+
 class Human:
     MAX_ENERGY = 100
     COST_MOVE = 1
@@ -51,6 +53,12 @@ class Human:
             did_move = False
 
         return did_move
+    
+    def dress(self, clothing:Clothing) -> None: #ASK PRINS 
+        pass
+
+    def undress(self, clothing:Clothing) -> None: #ASK PRINS 
+        pass
     
 
 

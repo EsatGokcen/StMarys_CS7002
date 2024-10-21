@@ -21,4 +21,11 @@ class Universe():
         print("Non-Planets: ")
         for non_planet in self.__non_planets:
             print(non_planet)
-    
+
+#not sure how to implement this ASK PRINS 
+''' 
+from typing import List
+
+def generate(self, names:List[str]) -> None:
+    pass
+''' 

@@ -7,10 +7,10 @@ class Clothing():
         self.__size = Clothing.ClothingSize() 
 
     def __repr__(self):
-        return f''
+        return f'Clothing(colour={self.__colour} , material={self.__material} , size={self.__size})'
     
     def __str__(self):
-        return f''
+        return f'Clothing colour: {self.__colour} , clothing material: {self.__material} , clothing size: {self.__size}'
     
     def ClothingSize(self): #ASK PRINS
         self.__size == 1

@@ -1,5 +1,6 @@
+from living_thing import LivingThing
 
-class Plant():
+class Plant(LivingThing):
 
     def __init__(self, name):
         self.__name = name
@@ -11,4 +12,13 @@ class Plant():
         return f''
     
     def absorb(self, amount):
-        pass
+        self.__energy += amount
+
+        if self.__energy > Plant.MAX_ENERGY:
+            excess_amount = self.__energy - Plant.MAX_ENERGY
+        elif self.__energy < Plant.MAX_ENERGY:
+            excess_amount = self.__energy - Plant.MAX_ENERGY
+        else:
+            excess_amount = 0
+
+        return excess_amount

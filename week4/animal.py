@@ -1,5 +1,6 @@
+from living_thing import LivingThing
 
-class Animal():
+class Animal(LivingThing):
 
     def __init__(self, name):
         self.__name = name

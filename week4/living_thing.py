@@ -1,6 +1,8 @@
 
 class LivingThing():
 
+    MAX_ENERGY = 100
+
     def __init__(self, name, energy, age):
         self.__name = name
         self.__energy = energy

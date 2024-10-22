@@ -1,6 +1,7 @@
 from clothing import Clothing
+from week4 import animal as a
 
-class Human:
+class Human(a.Animal):
     MAX_ENERGY = 100
     COST_MOVE = 1
 

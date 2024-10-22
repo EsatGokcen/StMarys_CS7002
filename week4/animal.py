@@ -10,8 +10,8 @@ class Animal():
     def __str__(self):
         return f''
     
-    def move():
-        pass
+    def move(self, distance):
+        return distance
 
     def eat():
         pass

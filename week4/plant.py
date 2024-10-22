@@ -6,10 +6,10 @@ class Plant(LivingThing):
         self.__name = name
 
     def __repr__(self):
-        return f''
+        return f'Plant(name={self.__name} , energy={self.__energy})'
     
     def __str__(self):
-        return f''
+        return f'{self.__name} is a plant with {self.__energy} energy.'
     
     def absorb(self, amount):
         self.__energy += amount

@@ -25,7 +25,7 @@ class Library:
             self.__transactions.append((book, patron))
             self.__books.remove(book)
             return True
-        return False #IS THIS A PROPER WAY TO MAKE AN ELSE STATEMENT
+        return False 
     
     def return_book(self, book):
         for transaction in self.__transactions:

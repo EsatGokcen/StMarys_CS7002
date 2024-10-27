@@ -6,4 +6,10 @@ class Book:
         self.__author = author
         self.__books = []
 
+    def __repr__(self):
+        return f'Book(name={self.__name}, author={self.__author})'
+    
+    def __str__(self):
+        return f'Book name: {self.__name}, Book author: {self.__author}.'
+
     

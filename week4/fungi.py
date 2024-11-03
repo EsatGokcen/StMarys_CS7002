@@ -24,6 +24,6 @@ class Fungi(LivingThing):
         else:
             excess_amount = 0
 
-        return excess_amount
+        return f"Excess amount is: {excess_amount}."
 
 

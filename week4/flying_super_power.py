@@ -1,7 +1,7 @@
+from abc import abstractmethod
 
-from super_human import SuperHuman
+class FlyingSuperPower:
 
-class FlyingSuperPower(SuperHuman):
-
+    @abstractmethod
     def fly(self, distance):
-        return super().fly(distance)
+        pass

@@ -1,7 +1,8 @@
 
 from week3 import human as h
+from flying_super_power import FlyingSuperPower
 
-class SuperHuman(h.Human):
+class SuperHuman(h.Human, FlyingSuperPower):
 
     FLY_COST = 5
 

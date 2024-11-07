@@ -1,8 +1,11 @@
+from abc import abstractmethod
 
 class InvisibilitySuperPower():
 
+    @abstractmethod
     def invisible():
-        return f'Subclass is invisible...'
+        pass
 
+    @abstractmethod
     def visible():
-        return f'Subclass is visible...'
+        pass

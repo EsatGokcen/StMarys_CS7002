@@ -10,3 +10,7 @@ class PatronRepository:
 
     def remove_patron(self, patron : Patron):
         self.__patrons.remove(patron)
+
+    def __str__(self):
+        patrons = "Patrons' List: " + "\n".join(self.__patrons)
+        return patrons

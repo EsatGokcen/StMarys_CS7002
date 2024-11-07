@@ -12,5 +12,5 @@ class BookRepository:
         self.__books.remove(book)
 
     def __str__(self):
-        for book in self.__books:
-            return f'Books list: {self.__books[book]},\n'
+        books = "Books' List: " + "\n".join(self.__books)
+        return books

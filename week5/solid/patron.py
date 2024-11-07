@@ -8,8 +8,6 @@ class Patron:
         self.__id = Patron.next_patron_id
         Patron.next_patron_id += 1
 
-        self.__patrons = []
-
     def __repr__(self):
         return f'Patron(name={self.__name} , id={self.__id})'
     

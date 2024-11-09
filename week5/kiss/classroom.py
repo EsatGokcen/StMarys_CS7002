@@ -1,6 +1,3 @@
-from teacher import Teacher
-from student import Student
-
 class Classroom:
 
     def __init__(self, teacher=None):

@@ -28,4 +28,4 @@ def main():
     classroom2.display_information()
 
 if __name__ == '__main__':
-    main()
+    main() #WEIRD ERROR MESSAGE DUNO WHY

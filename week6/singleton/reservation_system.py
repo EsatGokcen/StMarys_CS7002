@@ -29,6 +29,9 @@ class ReservationSystem:
         return f'{event.get_name()} has been scheduled to take place on {event.get_schedule()}.'
     
     def retrieve_attendee_info(self):
+        list = []
         for attendee in self.__attendees:
-            string = f'Attendee:\nName: {attendee.get_name()}\nID: {attendee.get_id()}\n'
+            string = f'\nAttendee:\nName: {attendee.get_name()}\nID: {attendee.get_id()}\n'
+            list.append(string)
+        return "".join(list)
 

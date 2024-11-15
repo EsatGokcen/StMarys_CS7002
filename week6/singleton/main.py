@@ -12,9 +12,11 @@ def main():
     print(res1 is res2) #if output True, singleton works
 
     res1.add_attendee(attendee1)
+    res1.add_attendee(attendee2)
+    
     res2.add_attendee(attendee2)
     
-    res1.retrieve_attendee_info()
+    print(res1.retrieve_attendee_info())
 
 if __name__ == '__main__':
     main()

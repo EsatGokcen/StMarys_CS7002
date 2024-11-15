@@ -1,4 +1,3 @@
-from abc import staticmethod
 from concrete_msg_sndrs import *
 
 class MessageSenderFactory:

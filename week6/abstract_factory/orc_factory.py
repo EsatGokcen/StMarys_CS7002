@@ -1,9 +1,11 @@
 from unit_factory import UnitFactory
+from orc_cavalry import OrcCavalary
+from orc_infantry import OrcInfantry
 
 class OrcUnitFactory(UnitFactory):
 
     def create_infantry(self):
-        return "Created orc infantry unit."
+        return OrcInfantry()
     
     def create_cavalry(self):
-        return "Created orc cavalary unit."
+        return OrcCavalary()

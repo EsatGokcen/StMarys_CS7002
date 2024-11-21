@@ -9,5 +9,5 @@ class PresentationLayer:
         for customer in customers:
             print(f"{customer[0]:<4} | {customer[1]:<10} | {customer[2]:<10} | {customer[3]}")
 
-    def add_customer(self):
-        return self.__business_logic_layer.add_customer()
+    def add_customer(self, customer):
+        return self.__business_logic_layer.add_customer(customer)

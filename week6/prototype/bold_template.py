@@ -10,5 +10,5 @@ class BoldTemplate(MessagePrototype):
     def clone(self):
         return BoldTemplate(self.content)
     
-    def apply_formating(self):
+    def apply_formatting(self):
         return f"\033[1m{self.content}\033[1m"

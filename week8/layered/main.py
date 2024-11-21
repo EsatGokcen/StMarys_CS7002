@@ -8,5 +8,9 @@ def main():
     business_logic = BusinessLogicLayer(data_layer)
     presentation = PresentationLayer(business_logic)
 
+    customer1 = ["Esat", "Gokcen", "09/07/2001"]
+    presentation.add_customer(customer1)
+    presentation.display_all_customers()
+
 if __name__ == '__main__':
     main()

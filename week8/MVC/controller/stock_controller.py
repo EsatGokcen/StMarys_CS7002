@@ -12,6 +12,6 @@ class StockController:
         self.__model.set_price(price)
 
     def display_stock(self):
-        self.__view.display_stock()
+        self.__view.refresh()
 
     

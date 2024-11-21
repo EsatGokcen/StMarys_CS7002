@@ -11,3 +11,6 @@ class DataLayer:
             if customer[0] == customer_id:
                 return customer
         return None
+    
+    def retrieve_customers(self):
+        return self.__customers

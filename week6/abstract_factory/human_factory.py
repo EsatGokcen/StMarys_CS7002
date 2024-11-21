@@ -4,7 +4,7 @@ from human_infantry import HumanInfantry
 
 class HumanUnitFactory(UnitFactory):
 
-    def create_infantry(self):
+    def create_infantry(self): 
         return HumanInfantry()
     
     def create_cavalry(self):

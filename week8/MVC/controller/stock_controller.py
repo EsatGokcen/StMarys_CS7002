@@ -4,7 +4,7 @@ from view.stock_view import StockView
 class StockController:
 
     def __init__(self):
-        self.__model = StockModel(name="Nvidia", price="100")
+        self.__model = StockModel(name="Nvidia", price=100)
         self.__view = StockView(self.__model)
 
     def set_stock(self, name, price):

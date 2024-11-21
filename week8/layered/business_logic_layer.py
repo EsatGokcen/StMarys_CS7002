@@ -4,11 +4,14 @@ class BusinessLogicLayer:
         self.__data_layer = data_layer
 
     def add_customer(self, customer):
-        self.__data_layer.create_customer(customer)
+        return self.__data_layer.create_customer(customer)
     
     def add_customers(self, customers):
+        new_customers = []
         for customer in customers:
-            self.__data_layer.create_customer(customer)
+            new_customer = self.__data_layer.create_customer(customer)
+            new_customers.append(new_customer)
+        return new_customers
 
     def get_customer(self, id):
         self.__data_layer.retrieve_customer(id)

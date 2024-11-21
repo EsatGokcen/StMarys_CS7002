@@ -5,7 +5,7 @@ class PresentationLayer:
 
     def display_all_customers(self):
         customers = self.__business_logic_layer.get_customers()
-        print("id | first name | last name | date of birth")
+        print(f"{'id':<4} | {'first name':<10} | {'last name':<10} | date of birth")
         for customer in customers:
             print(f"{customer[0]:<4} | {customer[1]:<10} | {customer[2]:<10} | {customer[3]}")
 

@@ -1,7 +1,7 @@
 from pizza_builder import PizzaBuilder
 from pizza import Pizza
 
-class CustomePizzaBuilder(PizzaBuilder):
+class CustomPizzaBuilder(PizzaBuilder):
 
     def __init__(self):
         self.toppings = []

@@ -1,4 +1,4 @@
-# Leaf classes
+# Leaf class
 from component_interface import Shape
 
 class Circle(Shape):

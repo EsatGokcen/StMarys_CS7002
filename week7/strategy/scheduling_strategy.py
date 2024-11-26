@@ -4,5 +4,5 @@ from abc import ABC, abstractmethod
 class SchedulingStrategy(ABC):
 
     @abstractmethod
-    def schedule_tasks(self, tasks):
+    def schedule_task(self, tasks):
         pass

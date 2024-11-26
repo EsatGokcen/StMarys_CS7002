@@ -7,9 +7,9 @@ from priority_level import PriorityLevelStrategy
 
 if __name__ == "__main__":
     tasks = [
-        {"due_date": datetime(2022, 12, 31), "priority": "High", "duration": 2},
-        {"due_date": datetime(2022, 10, 15), "priority": "Medium", "duration": 1},
-        {"due_date": datetime(2022, 9, 30), "priority": "Low", "duration": 3},
+        {"due_date": datetime.datetime(2022, 12, 31), "priority": "High", "duration": 2},
+        {"due_date": datetime.datetime(2022, 10, 15), "priority": "Medium", "duration": 1},
+        {"due_date": datetime.datetime(2022, 9, 30), "priority": "Low", "duration": 3},
     ]
 
     task_scheduler = TaskScheduler(DueDatePriorityStrategy())

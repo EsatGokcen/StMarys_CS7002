@@ -3,8 +3,8 @@
 from scheduling_strategy import SchedulingStrategy
 
 class PriorityLevelStrategy(SchedulingStrategy):
-    
-    def schedule_task(self, tasks):
+
+    def schedule_task(self, tasks): # DOES NOT WORK PROPERLY
         print("Scheduling tasks using Priority Level Strategy...")
         sorted_tasks = sorted(tasks, key=lambda x: x["priority"])
         for task in sorted_tasks:

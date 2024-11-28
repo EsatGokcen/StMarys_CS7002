@@ -1,5 +1,5 @@
 import pytest
-import calculator
+from week9 import calculator
 
 def test_add():
     expected = 8
